@@ -1,0 +1,8 @@
+const date = new Date(1985, 7, 12, 10, 39, 5, 10)
+console.log(date)
+const date2 = new Date(1995, 9, 23, 10, 39, 5, 10)
+console.log(date2)
+const date3 = new Date(2015, 8, 31, 10, 39, 5, 10)
+console.log(date3)
+const date4 = new Date(1885, 1, 4, 10, 39, 5, 10)
+console.log(date4)
