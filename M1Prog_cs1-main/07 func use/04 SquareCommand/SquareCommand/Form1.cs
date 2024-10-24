@@ -45,8 +45,26 @@ namespace SquareCommand
             //2) zorg dat je de speler bij het einde komt! ( waar de E staat!)
             steps = [
 
-                ()=>????,
-                ()=>????,
+                ()=>player.MoveDown(level),
+                ()=>player.MoveDown(level),
+                ()=>player.MoveDown(level),
+                ()=>player.MoveRight(level),
+                ()=>player.MoveRight(level),
+                ()=>player.MoveDown(level),
+                ()=>player.MoveDown(level),
+                ()=>player.MoveRight(level),
+                ()=>player.MoveRight(level),
+                ()=>player.MoveRight(level),
+                ()=>player.MoveUp(level),
+                ()=>player.MoveRight(level),
+                ()=>player.MoveRight(level),
+                ()=>player.MoveDown(level),
+                ()=>player.MoveDown(level),
+                ()=>player.MoveLeft(level),
+                ()=>player.MoveDown(level),
+
+                
+
                 // je kan de regel hierboven kopieeren en plakken als je meer stappen nodig hebt
             ];
 
