@@ -11,7 +11,11 @@ namespace RpgBattle
             monsterhealth.Text=monsterHealth.ToString();
         }
 		//1)
-		???
+		private void DoDamage(int damage)
+        {
+            monsterHealth -= damage;
+            monsterhealth.Text=monsterHealth.ToString();
+        }
 		//maak hier een function: 
 		//- DoDamage, 
 		//- met 1 argument: (int damage), 
@@ -27,7 +31,7 @@ namespace RpgBattle
         private void attack_Click(object sender, EventArgs e)
         {
             //3)
-            DoDamage(???); //gebruik hier de playerAttack
+            DoDamage(playerAttack); //gebruik hier de playerAttack
 			
 
         }
@@ -35,7 +39,7 @@ namespace RpgBattle
         private void fireball_Click(object sender, EventArgs e)
         {
             //4)
-            DoDamage(???); //gebruik hier de playerMagicAttack
+            DoDamage(playerMagicAttack); //gebruik hier de playerMagicAttack
 
 
         }
